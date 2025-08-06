@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Books Gallery</title>
+    <style>
+        /* General Body Styles */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f4f8; 
+            color: #333; 
+        }
+
+        /* Header */
+        h1 {
+            color: #4B0082; 
+            text-align: center; 
+            margin-top: 30px; 
+            font-size: 2.5em;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+            background-color: #e0d4f7;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4B0082;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #800080;
+        }
+
+        /* Section Styles */
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #4B0082;
+            border-bottom: 2px solid #e0d4f7;
+            padding-bottom: 5px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Gallery List */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            background-color: #f3e8ff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        ul li:hover {
+            transform: scale(1.03);
+            background-color: #e0d4f7;
+        }
+
+        /* Footer / About Section */
+        #about {
+            text-align: center;
+        }
+
+        #about p {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favorite Books Gallery</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>This is a simple HTML-only project where collaborators can showcase their favorite books.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <ul>
+            <li>"To Kill a Mockingbird" by Harper Lee</li>
+            <li>"1984" by George Orwell</li>
+            <li>"The Great Gatsby" by F. Scott Fitzgerald</li>
+            <li>"Pride and Prejudice" by Jane Austen</li>
+            <!-- Collaborators can add more books below -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This project demonstrates a single-file HTML project suitable for collaboration on GitHub.</p>
+    </section>
+</body>
+</html>
